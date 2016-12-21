@@ -11,7 +11,6 @@
 		B1EC9A571E08C78C00F4CD02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A561E08C78C00F4CD02 /* AppDelegate.m */; };
 		B1EC9A5F1E08C78C00F4CD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EC9A5E1E08C78C00F4CD02 /* Assets.xcassets */; };
 		B1EC9A621E08C78C00F4CD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EC9A601E08C78C00F4CD02 /* LaunchScreen.storyboard */; };
-		B1EC9A6E1E08C9FA00F4CD02 /* GWBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */; };
 		B1EC9A741E08CA4000F4CD02 /* GWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A731E08CA4000F4CD02 /* GWTabBarController.m */; };
 		B1EC9A771E08CA7200F4CD02 /* GWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A761E08CA7200F4CD02 /* GWTabBar.m */; };
 		B1EC9A7A1E08CA8600F4CD02 /* GWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A791E08CA8600F4CD02 /* GWTabBarButton.m */; };
@@ -29,8 +28,6 @@
 		B1EC9A5E1E08C78C00F4CD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1EC9A611E08C78C00F4CD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EC9A631E08C78C00F4CD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1EC9A6C1E08C9FA00F4CD02 /* GWBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBadgeView.h; sourceTree = "<group>"; };
-		B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBadgeView.m; sourceTree = "<group>"; };
 		B1EC9A721E08CA4000F4CD02 /* GWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTabBarController.h; sourceTree = "<group>"; };
 		B1EC9A731E08CA4000F4CD02 /* GWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTabBarController.m; sourceTree = "<group>"; };
 		B1EC9A751E08CA7200F4CD02 /* GWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTabBar.h; sourceTree = "<group>"; };
@@ -108,8 +105,6 @@
 				B1EC9A761E08CA7200F4CD02 /* GWTabBar.m */,
 				B1EC9A781E08CA8600F4CD02 /* GWTabBarButton.h */,
 				B1EC9A791E08CA8600F4CD02 /* GWTabBarButton.m */,
-				B1EC9A6C1E08C9FA00F4CD02 /* GWBadgeView.h */,
-				B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */,
 			);
 			name = GWTabBar;
 			sourceTree = "<group>";
@@ -201,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EC9A861E09018E00F4CD02 /* SecondViewController.m in Sources */,
-				B1EC9A6E1E08C9FA00F4CD02 /* GWBadgeView.m in Sources */,
 				B1EC9A771E08CA7200F4CD02 /* GWTabBar.m in Sources */,
 				B1EC9A741E08CA4000F4CD02 /* GWTabBarController.m in Sources */,
 				B1EC9A8C1E0901BC00F4CD02 /* FourthViewController.m in Sources */,
@@ -362,6 +356,7 @@
 				B1EC9A681E08C78C00F4CD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
