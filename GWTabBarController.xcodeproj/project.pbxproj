@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1EC9A541E08C78C00F4CD02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A531E08C78C00F4CD02 /* main.m */; };
+		B1EC9A571E08C78C00F4CD02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A561E08C78C00F4CD02 /* AppDelegate.m */; };
+		B1EC9A5F1E08C78C00F4CD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EC9A5E1E08C78C00F4CD02 /* Assets.xcassets */; };
+		B1EC9A621E08C78C00F4CD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EC9A601E08C78C00F4CD02 /* LaunchScreen.storyboard */; };
+		B1EC9A6E1E08C9FA00F4CD02 /* GWBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */; };
+		B1EC9A741E08CA4000F4CD02 /* GWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A731E08CA4000F4CD02 /* GWTabBarController.m */; };
+		B1EC9A771E08CA7200F4CD02 /* GWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A761E08CA7200F4CD02 /* GWTabBar.m */; };
+		B1EC9A7A1E08CA8600F4CD02 /* GWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A791E08CA8600F4CD02 /* GWTabBarButton.m */; };
+		B1EC9A821E09017900F4CD02 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A811E09017900F4CD02 /* FirstViewController.m */; };
+		B1EC9A861E09018E00F4CD02 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A851E09018E00F4CD02 /* SecondViewController.m */; };
+		B1EC9A891E09019400F4CD02 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A881E09019400F4CD02 /* ThirdViewController.m */; };
+		B1EC9A8C1E0901BC00F4CD02 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9A8B1E0901BC00F4CD02 /* FourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1EC9A4F1E08C78C00F4CD02 /* GWTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EC9A531E08C78C00F4CD02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1EC9A551E08C78C00F4CD02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1EC9A561E08C78C00F4CD02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1EC9A5E1E08C78C00F4CD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1EC9A611E08C78C00F4CD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1EC9A631E08C78C00F4CD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EC9A6C1E08C9FA00F4CD02 /* GWBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBadgeView.h; sourceTree = "<group>"; };
+		B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBadgeView.m; sourceTree = "<group>"; };
+		B1EC9A721E08CA4000F4CD02 /* GWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTabBarController.h; sourceTree = "<group>"; };
+		B1EC9A731E08CA4000F4CD02 /* GWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTabBarController.m; sourceTree = "<group>"; };
+		B1EC9A751E08CA7200F4CD02 /* GWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTabBar.h; sourceTree = "<group>"; };
+		B1EC9A761E08CA7200F4CD02 /* GWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTabBar.m; sourceTree = "<group>"; };
+		B1EC9A781E08CA8600F4CD02 /* GWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTabBarButton.h; sourceTree = "<group>"; };
+		B1EC9A791E08CA8600F4CD02 /* GWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTabBarButton.m; sourceTree = "<group>"; };
+		B1EC9A7C1E08D48500F4CD02 /* GWHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWHeader.pch; sourceTree = "<group>"; };
+		B1EC9A801E09017900F4CD02 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B1EC9A811E09017900F4CD02 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B1EC9A841E09018E00F4CD02 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B1EC9A851E09018E00F4CD02 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B1EC9A871E09019400F4CD02 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B1EC9A881E09019400F4CD02 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B1EC9A8A1E0901BC00F4CD02 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B1EC9A8B1E0901BC00F4CD02 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1EC9A4C1E08C78C00F4CD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1EC9A461E08C78C00F4CD02 = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A511E08C78C00F4CD02 /* GWTabBarController */,
+				B1EC9A501E08C78C00F4CD02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EC9A501E08C78C00F4CD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A4F1E08C78C00F4CD02 /* GWTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1EC9A511E08C78C00F4CD02 /* GWTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A551E08C78C00F4CD02 /* AppDelegate.h */,
+				B1EC9A561E08C78C00F4CD02 /* AppDelegate.m */,
+				B1EC9A831E09018000F4CD02 /* Controller */,
+				B1EC9A7B1E08D21600F4CD02 /* GWTabBar */,
+				B1EC9A5E1E08C78C00F4CD02 /* Assets.xcassets */,
+				B1EC9A601E08C78C00F4CD02 /* LaunchScreen.storyboard */,
+				B1EC9A631E08C78C00F4CD02 /* Info.plist */,
+				B1EC9A521E08C78C00F4CD02 /* Supporting Files */,
+			);
+			path = GWTabBarController;
+			sourceTree = "<group>";
+		};
+		B1EC9A521E08C78C00F4CD02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A531E08C78C00F4CD02 /* main.m */,
+				B1EC9A7C1E08D48500F4CD02 /* GWHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1EC9A7B1E08D21600F4CD02 /* GWTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A721E08CA4000F4CD02 /* GWTabBarController.h */,
+				B1EC9A731E08CA4000F4CD02 /* GWTabBarController.m */,
+				B1EC9A751E08CA7200F4CD02 /* GWTabBar.h */,
+				B1EC9A761E08CA7200F4CD02 /* GWTabBar.m */,
+				B1EC9A781E08CA8600F4CD02 /* GWTabBarButton.h */,
+				B1EC9A791E08CA8600F4CD02 /* GWTabBarButton.m */,
+				B1EC9A6C1E08C9FA00F4CD02 /* GWBadgeView.h */,
+				B1EC9A6D1E08C9FA00F4CD02 /* GWBadgeView.m */,
+			);
+			name = GWTabBar;
+			sourceTree = "<group>";
+		};
+		B1EC9A831E09018000F4CD02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC9A801E09017900F4CD02 /* FirstViewController.h */,
+				B1EC9A811E09017900F4CD02 /* FirstViewController.m */,
+				B1EC9A841E09018E00F4CD02 /* SecondViewController.h */,
+				B1EC9A851E09018E00F4CD02 /* SecondViewController.m */,
+				B1EC9A871E09019400F4CD02 /* ThirdViewController.h */,
+				B1EC9A881E09019400F4CD02 /* ThirdViewController.m */,
+				B1EC9A8A1E0901BC00F4CD02 /* FourthViewController.h */,
+				B1EC9A8B1E0901BC00F4CD02 /* FourthViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1EC9A4E1E08C78C00F4CD02 /* GWTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EC9A661E08C78C00F4CD02 /* Build configuration list for PBXNativeTarget "GWTabBarController" */;
+			buildPhases = (
+				B1EC9A4B1E08C78C00F4CD02 /* Sources */,
+				B1EC9A4C1E08C78C00F4CD02 /* Frameworks */,
+				B1EC9A4D1E08C78C00F4CD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWTabBarController;
+			productName = GWTabBarController;
+			productReference = B1EC9A4F1E08C78C00F4CD02 /* GWTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1EC9A471E08C78C00F4CD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yanggenwei;
+				TargetAttributes = {
+					B1EC9A4E1E08C78C00F4CD02 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WBQXY8H29L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1EC9A4A1E08C78C00F4CD02 /* Build configuration list for PBXProject "GWTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1EC9A461E08C78C00F4CD02;
+			productRefGroup = B1EC9A501E08C78C00F4CD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1EC9A4E1E08C78C00F4CD02 /* GWTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1EC9A4D1E08C78C00F4CD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC9A621E08C78C00F4CD02 /* LaunchScreen.storyboard in Resources */,
+				B1EC9A5F1E08C78C00F4CD02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EC9A4B1E08C78C00F4CD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC9A861E09018E00F4CD02 /* SecondViewController.m in Sources */,
+				B1EC9A6E1E08C9FA00F4CD02 /* GWBadgeView.m in Sources */,
+				B1EC9A771E08CA7200F4CD02 /* GWTabBar.m in Sources */,
+				B1EC9A741E08CA4000F4CD02 /* GWTabBarController.m in Sources */,
+				B1EC9A8C1E0901BC00F4CD02 /* FourthViewController.m in Sources */,
+				B1EC9A7A1E08CA8600F4CD02 /* GWTabBarButton.m in Sources */,
+				B1EC9A891E09019400F4CD02 /* ThirdViewController.m in Sources */,
+				B1EC9A571E08C78C00F4CD02 /* AppDelegate.m in Sources */,
+				B1EC9A541E08C78C00F4CD02 /* main.m in Sources */,
+				B1EC9A821E09017900F4CD02 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1EC9A601E08C78C00F4CD02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EC9A611E08C78C00F4CD02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1EC9A641E08C78C00F4CD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1EC9A651E08C78C00F4CD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1EC9A671E08C78C00F4CD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWTabBarController/GWHeader.pch";
+				INFOPLIST_FILE = GWTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yanggenwei.com.GWTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1EC9A681E08C78C00F4CD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWTabBarController/GWHeader.pch";
+				INFOPLIST_FILE = GWTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yanggenwei.com.GWTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1EC9A4A1E08C78C00F4CD02 /* Build configuration list for PBXProject "GWTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EC9A641E08C78C00F4CD02 /* Debug */,
+				B1EC9A651E08C78C00F4CD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EC9A661E08C78C00F4CD02 /* Build configuration list for PBXNativeTarget "GWTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EC9A671E08C78C00F4CD02 /* Debug */,
+				B1EC9A681E08C78C00F4CD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1EC9A471E08C78C00F4CD02 /* Project object */;
+}
